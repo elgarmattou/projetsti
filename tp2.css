@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    background-color: #dcdcdc;
+}
+html{
+    padding:0px;
+    margin:0px;
+}
+header{
+    background-color: #5f9ea0;
+    width: 100%;
+    top: 0px;
+    height: 40px;
+}
+header h1{
+ text-align: center;
+}
+nav{
+    width: 20%;
+    height: 460px;
+    position: absolute;
+    left: 1px;
+    top: 50px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition-duration: 1s;
+
+}
+nav a:hover{
+    filter: drop-shadow(5px 5px 5px gray);
+}
+section{
+    width: 70%;
+    height: 460px;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+
+}
+section iframe{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #5f9ea0;
+}
+footer{
+    background-color: #5f9ea0;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 1px;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+
+
+}
+video{
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+}
+
+h2{
+    color: #5f9ea0;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+table tr td{
+    width: 33%;
+    padding: 5px;
+}
+table img{
+    width: 90px;
+    height: 90px;
+    margin-left: 25px;
+    border: 2px dotted #5f9ea0;
+    transition-duration: 1s;
+}
+table img:hover{
+    filter: invert(100%);
+}
+
+form{
+    padding-left: 30px;
+}
+form div{
+    padding-left: 30px;
+    width: 70%;
+}
+form legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+form label{
+    width: 200px;
+    height: 15;
+    font-weight: bold;
+    padding: 5px;
+    margin: 2px;
+    display: inline-block;
+}
+form div .x{
+    width: 280px;
+    height: 20px;
+    margin-left: 30px;
+}
+form select{
+    margin-left: 15px;
+}
+form textarea{
+    display: inline-block;
+    height: 40px;
+    width: 280px;
+    margin-left: 15px;
+}
+form .b{
+    cursor: pointer;
+    padding-left: 20px;
+    margin-left: 180px;
+    border: 2px solid black;
+    border-radius: 8px;
+    filter: drop-shadow(5px 5px 0px gray);
+    padding-right: 20px;
+    transition-duration: 1s;
+}
+form .b:hover{
+    filter: none;
+}
